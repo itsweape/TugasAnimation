@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TugasAnimation</string>
+    <string name="truth">Truth</string>
+    <string name="dare">Dare</string>
+    <string name="question1">Do you have a hidden talent?</string>
+    <string name="question2">When was the last time you lied?</string>
+    <string name="question3">Have you ever broken the law?</string>
+    <string name="dare1">Do karaoke to a song of the group choosing</string>
+    <string name="dare2">Do five push-ups</string>
+    <string name="dare3">Take a selfie with random people</string>
+</resources>

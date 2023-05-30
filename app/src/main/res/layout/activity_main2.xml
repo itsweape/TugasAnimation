@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/purple_200">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/friends"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview"
+        android:text="TRUTH OR DARE"
+        android:textStyle="bold"
+        android:textSize="36dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play With Your Friends"
+        android:layout_below="@id/tod"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+</RelativeLayout>
